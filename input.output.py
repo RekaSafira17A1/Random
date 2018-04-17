@@ -1,13 +1,6 @@
-print("                   Input dan Output")
-print("================================================== \n")
+import random
+n=input("jumlah n : ")
 
-nm = raw_input("Nama :")
-nim=input("NIM  :")
-kls=raw_input("Kelas :")
-print"\n\n"
-
-print "DATA MAHASISWA\n"
-
-print (nm)
-print(nim)
-print(kls)
+for r in range(n) :
+    n=random.uniform(0.0,0.5)
+    print n
